@@ -1,8 +1,6 @@
-import loginform
-from wtforms.fields import form
 
 from extension import db, app, login_manager
-from flask_login import UserMixin
+
 
 
 class BaseModel:
